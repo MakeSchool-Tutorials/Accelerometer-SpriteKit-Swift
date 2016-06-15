@@ -13,11 +13,11 @@ slug: code
 ```swift
 import SpriteKit
 class GameScene: SKScene {
-	override func didMoveToView(view: SKView) {
-	}
+    override func didMoveToView(view: SKView) {
+    }
 >
-	override func update(currentTime: CFTimeInterval) {
-	}
+    override func update(currentTime: CFTimeInterval) {
+    }
 }
 ```
 > If you want, you can also delete `Spaceship` from the `Assets.xcassets` file.
@@ -77,14 +77,14 @@ let motionManager = CMMotionManager()
 ```swift
 // initialize accelerometer
 if motionManager.accelerometerAvailable {
-	motionManager.startAccelerometerUpdates()
+    motionManager.startAccelerometerUpdates()
 }
 ```
 > Now we need to query the accelerometer every frame and set the world's gravity accordingly. Add the following code to `update()`:
 ```swift
 // update gravity based on accelerometer
 if let data = motionManager.accelerometerData {
-	self.physicsWorld.gravity = CGVectorMake(CGFloat(data.acceleration.x), CGFloat(data.acceleration.y))
+    self.physicsWorld.gravity = CGVectorMake(CGFloat(data.acceleration.x), CGFloat(data.acceleration.y))
 }
 ```
 > In case the accelerometer is unavailable, let's set the default gravity to zero in `didMoveToView()`:
