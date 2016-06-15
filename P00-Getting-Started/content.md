@@ -15,7 +15,9 @@ This tutorial will show you how to access accelerometer data and use it in a gam
 
 # The finished product
 
-It will be awesome.
+You'll make a randomized "labyrinth" to explore with an adorable physics blob.
+
+![The finished product](../Tutorial-Images/random.png "The finished product")
 
 # Feedback
 

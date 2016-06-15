@@ -8,6 +8,7 @@ slug: new-project
 > ![Making a new game project](../Tutorial-Images/new-game.png "Making a new game project")
 >
 > Make it a Swift/SpriteKit project. Disable Unit Tests and UI Tests. This is game development, we don't write tests, we have QA.
+>
 > ![Setting project properties](../Tutorial-Images/new-project.png "Setting project properties")
 
 <!-- -->
