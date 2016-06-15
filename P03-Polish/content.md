@@ -40,7 +40,7 @@ if arc4random() % 2 == 0 { // random chance of spawning a block
 }
 ```
 
-The statement above generates a random number, then checks if it is divisible by 2. The modulor operator (%) divides two integers and returns the remainder. If the remainder is 0, the number is divisible by 2. What are the odds that a random number is divisible by 2?
+The statement above generates a random number, then checks if it is divisible by 2. The modulo operator (%) divides two integers and returns the remainder. If the remainder is 0, the number is divisible by 2. What are the odds that a random number is divisible by 2?
 
 > [solution]
 > 50/50!
